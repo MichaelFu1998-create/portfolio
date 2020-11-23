@@ -32,7 +32,7 @@ if (empty($_POST["message"])) {
 } else {
     $message = $_POST["message"];
 }
-
+   
 // Prepare email body text
 $Body = "";
 $Body .= "Name: ";
